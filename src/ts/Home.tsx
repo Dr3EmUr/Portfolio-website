@@ -9,7 +9,7 @@ export default function ()
     return (
         <>
             
-            <main className=" w-full h-full bg-black">
+            <main className=" w-full h-full bg-black overflow-clip">
                 <Navbar />
 
                 <div className="flex-col m-auto mt-[20vh] text-white h-fit w-fit font-roboto">

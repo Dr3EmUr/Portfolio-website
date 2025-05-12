@@ -10,9 +10,10 @@ export default function Project(props: {
     console.log(props.imgPath)
     return (
         <>
-            <div
+            <a
+                href = {props.url}
                 style={{backgroundImage : `url(${props.imgPath.href})`}}
-                className={` overflow-clip aspect-video h-54 border-2 border-[#151515] rounded-xl bg-size-[100%] bg-no-repeat bg-center bg-black
+                className={` block overflow-clip aspect-video h-54 border-2 border-[#151515] rounded-xl bg-size-[100%] bg-no-repeat bg-center bg-black
                  group`}>
                 
                 <a
@@ -26,7 +27,7 @@ export default function Project(props: {
                 </a>
 
 
-            </div>
+            </a>
         </>
     )
 }
